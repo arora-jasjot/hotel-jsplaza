@@ -1,0 +1,266 @@
+.navbar{
+	background-color: #192128 !important;
+	padding: 05px !important;
+}
+.nav-link{
+	color: #e8e9ea !important;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.navbar-brand{
+	font-family: 'Bungee Inline', cursive;
+	margin-left: 20px;
+}
+#brand{
+	width: 40px;
+	height: auto;
+}
+body{
+	background: linear-gradient(to right, #A0522D, #eac086, #eac086, #eac086, #eac086, #eac086, #eac086, #eac086, #eac086, #eac086, #eac086, 	#A0522D) !important;
+}
+.cont{
+	margin-left: 8%;
+	margin-right: 8%;
+	padding: 1.9%;
+}
+@media only screen and (max-width: 1500px) {
+ 	#imgmain{
+		width: 100%;
+		height: auto;
+		margin-bottom: 2%;
+		object-fit: contain;
+	}
+}
+@media only screen and (min-width: 1500px) {
+ 	#imgmain{
+		width: 100%;
+		height: 900px;
+		margin-bottom: 2%;
+		object-fit: cover;
+	}
+}
+@media only screen and (max-width: 750px) {
+	h1{
+	font-size: 25px !important;
+	border-bottom: 7px inset #A0522D;
+	border-radius: 0px 0px 19px 0px;
+	border-width: 40%;
+	margin-bottom: 2% !important;
+	}
+	h2{
+	font-size: 22px !important;
+	border-bottom: 7px inset #A0522D;
+	border-radius: 0px 0px 19px 0px;
+	border-width: 30%;
+	margin-bottom: 2% !important;
+	}
+	p{
+		font-size: 20px;
+	}
+	.ammicon{
+		font-size: 40px;
+	}
+	.amenities{
+	width: 25%;
+	padding: 2%;
+	height: auto;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	background: #eac086;
+	margin-bottom: 2%;
+	}
+}
+@media only screen and (min-width: 750px) {
+	h1{
+	font-size: 34px !important;
+	border-bottom: 7px inset #A0522D;
+	border-radius: 0px 0px 100px 0px;
+	border-width: 40%;
+	margin-bottom: 2% !important;
+	}
+	h2{
+	font-size: 31px !important;
+	border-bottom: 7px inset #A0522D;
+	border-radius: 0px 0px 19px 0px;
+	border-width: 30%;
+	margin-bottom: 2% !important;
+	}
+	p{
+		font-size: 22px;
+		padding: 2%;
+	}
+	.ammicon{
+		font-size: 80px;
+	}
+	.amenities{
+	width: 25%;
+	padding: 2%;
+	height: auto;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	background: #eac086;
+	margin-bottom: 2%;
+	}
+}
+.seemore{
+	color: #A0522D;
+	font-weight: 600;
+}
+.seemore:hover{
+	color: #A0522D;
+}
+@media only screen and (min-width: 576px) {
+	.headimg{
+		width: 100%;
+		border: 5px solid #A0522D;
+		border-radius: 20px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.headimg{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.dpl{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1350px) {
+	.roomimgs{
+		width: 100%;
+		height: 190px;
+		border: 5px ridge #A0522D;
+	}
+}
+@media only screen and (min-width: 1350px) {
+	.roomimgs{
+		width: 100%;
+		height: 230px;
+		border: 5px ridge #A0522D;
+	}
+}
+.roomcard{
+	background: white;
+	width: 100%;
+	margin-bottom: 5%;
+}
+.galtext{
+	padding: 2%;
+	font-weight: 900;
+	text-align: left;
+	color: #80200A;
+}
+.galtext p{
+	font-size: 24px;
+}
+.roominfo{
+	font-weight: 300;
+	color: black;
+	font-size: 18px;
+}
+.rmprbtn{
+	margin: 3% 2% 2% 2%;
+	background: #B22222;
+	padding: 2%;
+	color: #FFD700;
+	font-size: 20px;
+}
+.htltag{
+	color: #e8e9ea;
+	font-size: 2em;
+	margin-bottom: 2.25%;
+}
+.btm-navbar{
+	text-align: center;
+	padding-top: 1% !important;
+	font-size: 16px; 
+	background-color: #192128 !important;
+	color: #e8e9ea !important;
+}
+.btm-navlink{
+	color: #e8e9ea !important;
+	margin: 4%;
+}
+.btm-head-info{
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 0;
+	margin-top: 2%;
+}
+.btm-data{
+	font-size: 1.1em !important;
+	padding: 0;
+	margin-bottom: 3px;
+	color: #e8e9ea !important;
+	margin-right: 1%;
+	margin-left: 1%;
+	}
+@media only screen and (min-width: 768px) {
+	.followus{
+		text-align: center;
+	}
+}
+.sclink{
+	font-size: 1.4em;
+	margin-right: 2%;
+}
+.btmbrdr{
+	border-bottom: 1px solid #e8e9ea;
+	padding: 0;
+	padding-bottom: 2%;
+}
+.thumbnail > img{
+	width:100%;
+	height:auto;
+	border:1px solid #ddd;
+	padding:5px;
+
+	margin-bottom: 25px;
+}
+table{
+	margin: 5%; 
+}
+.col_1{
+	width: 20%;
+}
+.col_2{
+	width: 20%;
+}
+.col_3{
+	text-align: left;
+}
+table{
+	text-align: center;
+	font-size: 1.1em;
+}
+td{
+	padding: 2%;
+	border: 2px solid black;
+}
+.btnlinktxt{
+	color: white;
+}
+.btnlinktxt:hover{
+	color: white;
+}
+.gallery{
+	margin-top: 65px;
+	text-align: center;
+	border: 0;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
